@@ -4,7 +4,7 @@ import './App.css';
 import Mercy from './Mercy';
 import Home from './Home';
 import Benedict from './Benedict'
-import Sharon from './Sharon'
+import Mike from './Mike'
 import { Routes, Route,Link } from 'react-router-dom';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Route path ='/' element={<Home/>}/>
         <Route path ='/mercy' element={<Mercy/>}/>
         <Route path ='/benedict' element={<Benedict/>}/>
-        <Route path ='/sharon' element={<Sharon/>}/>
+        <Route path ='/mike' element={<Mike/>}/>
       </Routes>
 
     

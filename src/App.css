@@ -51,4 +51,23 @@ color: black;
 }
 .navbar{
   display: flex;
+.prof{
+  color: beige;
+  font-weight: 600;
+  margin-left: 20%;
+}
+.skill h2{
+  font-weight: 500;
+   font-display:center ;
+   position:relative;
+}
+.nav{
+  display: flex;
+  text-align: left;
+  justify-content:space-around;
+  margin-left: 30%;
+  margin-right: 50px;
+  margin-top: 40px;
+  padding-top: 5px;
+  color: orange;
 }
