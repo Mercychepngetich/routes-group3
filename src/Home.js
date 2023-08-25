@@ -1,5 +1,5 @@
 function Home(){
-    return<div>
+    return<div className="group3">
         <h1 style={{textAlign:"center"}}> This is Group 3</h1>
         <p>Hello there,<br/>
            This is group 3, a group of FrontEnd Software Developers<br></br>
