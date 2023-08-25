@@ -49,6 +49,9 @@ color: black;
 .intro h3{
   font-weight: 600;
 }
+.navbar{
+  display: flex;
+}
 .prof{
   color: beige;
   font-weight: 600;
