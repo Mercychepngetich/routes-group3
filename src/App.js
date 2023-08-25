@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Mercy from './Mercy';
 import Home from './Home';
+import Benedict from './Benedict'
 import { Routes, Route,Link } from 'react-router-dom';
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path ='/' element={<Home/>}/>
         <Route path ='/mercy' element={<Mercy/>}/>
+        <Route path ='/benedict' element={<Benedict/>}/>
       </Routes>
 
     
