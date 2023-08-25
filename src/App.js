@@ -4,15 +4,17 @@ import './App.css';
 import Mercy from './Mercy';
 import Home from './Home';
 import Benedict from './Benedict'
+import Sharon from './Sharon'
 import { Routes, Route,Link } from 'react-router-dom';
+
 function App() {
   return (
     <div className="App">
-
+      <div className='navbar'>
       <button style={{"marginLeft":"50%"}}><Link to="/mercy" style={{"color":'brown'}}>Mercy</Link></button>
       <button style={{"marginLeft":"50%"}}><Link to="/benedict" style={{"color":'brown'}}>Benedict</Link></button>
       <button style={{"marginLeft":"50%"}}><Link to="/sharon" style={{"color":'brown'}}>Sharon</Link></button> 
-      
+      </div>
       <Routes>
         <Route path ='/' element={<Home/>}/>
         <Route path ='/mercy' element={<Mercy/>}/>
